@@ -1,0 +1,77 @@
+﻿@model AspNetUserRolesEntityFramework.Models.DiscussionForum
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>DiscussionForum</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PostDate" class="control-label"></label>
+                <input asp-for="PostDate" class="form-control" readonly />
+                <span asp-validation-for="PostDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" readonly />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TopicTitle" class="control-label"></label>
+                <input asp-for="TopicTitle" class="form-control" placeholder="Enter a topic for your feedback" />
+                <span asp-validation-for="TopicTitle" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Company" class="control-label"></label>
+                <select asp-for="Company" class="form-control">
+                    <option value=""selected disabled>Select a Company</option>
+                    <option>Google</option>
+                    <option>Amazon</option>
+                    <option>Microsoft</option>
+                    <option>IBM</option>
+                    <option>Oracle</option>
+                    <option>SAS</option>
+                </select>
+                <span asp-validation-for="Company" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StarRating" class="control-label"></label>
+                <select asp-for="StarRating" class="form-control">
+                    <option value=""selected disabled>Select a StarRating</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <span asp-validation-for="StarRating" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MessageContent" class="control-label"></label>
+                <textarea asp-for="MessageContent" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="MessageContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

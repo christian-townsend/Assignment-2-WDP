@@ -1,0 +1,81 @@
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.deps.json
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.runtimeconfig.json
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.runtimeconfig.dev.json
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.dll
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.pdb
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.Views.dll
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.Views.pdb
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.csprojAssemblyReference.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.csproj.CoreCompileInputs.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorAssemblyInfo.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorAssemblyInfo.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.AssemblyInfoInputs.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.AssemblyInfo.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.TagHelpers.input.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.TagHelpers.output.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorCoreGenerate.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorTargetAssemblyInfo.cache
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorTargetAssemblyInfo.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.Views.pdb
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.dll
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.pdb
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.csproj.CopyComplete
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Create.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Delete.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Details.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Edit.g.cshtml.cs
+H:\Web Design and Programming\Week10Tutorial\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Index.g.cshtml.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\appsettings.json
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.deps.json
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.runtimeconfig.json
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.runtimeconfig.dev.json
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.dll
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.pdb
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.Views.dll
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\bin\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.Views.pdb
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.csprojAssemblyReference.cache
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorAssemblyInfo.cache
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorAssemblyInfo.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.AssemblyInfoInputs.cache
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.AssemblyInfo.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.TagHelpers.input.cache
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.TagHelpers.output.cache
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorCoreGenerate.cache
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Create.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Delete.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Details.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Edit.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\DiscussionForums\Index.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorTargetAssemblyInfo.cache
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.RazorTargetAssemblyInfo.cs
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.Views.pdb
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.dll
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.pdb
+D:\University Units\Web Design and Programming\AspNetUserRolesEntityFramework\AspNetUserRolesEntityFramework\obj\Debug\netcoreapp2.1\AspNetUserRolesEntityFramework.csproj.CopyComplete

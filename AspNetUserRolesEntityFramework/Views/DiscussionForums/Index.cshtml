@@ -1,0 +1,129 @@
+﻿@model IEnumerable<AspNetUserRolesEntityFramework.Models.DiscussionForum>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<body>
+
+    <div id="page-container">
+        <!--- Section for Title and subtitle + background image -->
+        <div class="machinelearning">
+            <div class="heading">
+                <h1 Style="padding-top: 60px;">Machine Learning</h1>
+            </div>
+            <div class="heading">
+                <h2>Striving for minimal explicity with a goal of infinite improvement.</h2>
+            </div>
+        </div>
+
+        <!--- Class for company tile content -->
+
+        <div class="container-machine-learning" style="width:100%;">
+
+            <div class="row" style="margin-bottom: 1px;">
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://www.ibm.com/au-en/analytics/machine-learning" target="_blank">
+                        <p>IBM</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://aws.amazon.com/machine-learning/" target="_blank">
+                        <p>Amazon</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-12" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://cloud.google.com/products/ai/" target="_blank">
+                        <p>Google</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://azure.microsoft.com/en-au/services/machine-learning-service/" target="_blank">
+                        <p>Microsoft</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://www.oracle.com/database/technologies/datawarehouse-bigdata/oml-notebooks.html"
+                       target="_blank">
+                        <p>Oracle</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-12" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://www.sas.com/en_us/software/visual-data-mining-machine-learning.html"
+                       target="_blank">
+                        <p>SAS</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Machine Learning Video at bottom of the page-->
+
+        <div class="videoWrapper" style="padding-left: 0px; padding-right: 0%;">
+            <iframe width="560" height="200" src="https://www.youtube.com/embed/UzxYlbK2c7E" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Authenticated User-->
+
+@{
+    if (User.Identity.IsAuthenticated)
+    {
+        <p>
+            <br>
+            <a asp-action="Create" class="btn btn-primary">Submit your feedback</a>
+        </p>
+    }
+}
+
+<!--Unauthenticated User-->
+
+@{
+    if (!User.Identity.IsAuthenticated)
+    {
+        <p>
+            <br>
+            Please
+            <a asp-area="Identity" asp-page="/Account/Login">Login </a>
+            or
+            <a asp-area="Identity" asp-page="/Account/Register"> create an account</a>
+            to post your feedback on this page.
+        </p>
+    }
+}
+
+
+@foreach (var item in Model)
+{
+    <h2>@Html.DisplayFor(modelItem => item.TopicTitle)</h2>
+    <p>
+        @{
+            for (int i = 0; i < item.StarRating; i++)
+            { <span style="color: #f8bd08; ">&#x2605;</span>
+            }
+            
+            for (int i = 0; i < 5 - item.StarRating; i++)
+            { <span>&#x2606;</span>
+            }
+        }
+    </p>
+
+    <p>@Html.DisplayFor(modelItem => item.MessageContent)</p>
+    <p>Posted by <b>@Html.DisplayFor(modelItem => item.UserName)</b> on @Html.DisplayFor(modelItem => item.PostDate)</p>
+    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-default">Details</a>
+    <a asp-action="IncreaseLike" asp-route-id="@item.Id" class="btn btn-success">Agree(+)</a>
+    <a asp-action="DecreaseLike" asp-route-id="@item.Id" class="btn btn-danger">Disagree(-)</a>
+    <hr />
+}
