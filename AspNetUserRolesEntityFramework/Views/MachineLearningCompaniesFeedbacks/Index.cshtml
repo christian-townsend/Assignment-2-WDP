@@ -1,0 +1,222 @@
+﻿@model IEnumerable<AspNetUserRolesEntityFramework.Models.MachineLearningCompaniesFeedback>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="/css/style.css">
+
+<body>
+
+    
+
+    <div id="page-container" style="width:100%">
+        <!--- Section for Title and subtitle + background image -->
+        <div class="machinelearning">
+            <div class="heading">
+                <h1 Style="padding-top: 60px;">Machine Learning</h1>
+            </div>
+            <div class="heading">
+                <h2>Striving for minimal explicity with a goal of infinite improvement.</h2>
+            </div>
+        </div>
+
+        <!--- Class for company tile content -->
+
+        <div class="container-machine-learning" style="width:100%;">
+
+            <div class="row" style="margin-bottom: 1px;">
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://www.ibm.com/au-en/analytics/machine-learning" target="_blank">
+                        <p>IBM</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://aws.amazon.com/machine-learning/" target="_blank">
+                        <p>Amazon</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-12" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://cloud.google.com/products/ai/" target="_blank">
+                        <p>Google</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://azure.microsoft.com/en-au/services/machine-learning-service/" target="_blank">
+                        <p>Microsoft</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-6" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://www.oracle.com/database/technologies/datawarehouse-bigdata/oml-notebooks.html"
+                       target="_blank">
+                        <p>Oracle</p>
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-12" style="background-color:lightblue; border: 2px solid white;">
+                    <a href="https://www.sas.com/en_us/software/visual-data-mining-machine-learning.html"
+                       target="_blank">
+                        <p>SAS</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Machine Learning Video at bottom of the page-->
+
+        <div class="videoWrapper" style="padding-left: 0px; padding-right: 0%;">
+            <iframe width="560" height="200" src="https://www.youtube.com/embed/UzxYlbK2c7E" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+
+
+    </div>
+
+</body>
+
+<div style="margin-left:20px; margin-top: 10px;">
+
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <p>
+                <a asp-action="Create" class="btn btn-info">Submit your feedback</a>
+            </p>
+        }
+    }
+
+    @{
+        if (!User.Identity.IsAuthenticated)
+        {
+            <p>
+                Please <a href="~/Identity/Account/Login?returnUrl=~/MachineLearningCompaniesFeedbacks/Index">login</a> or <a href="~/Identity/Account/Register?returnUrl=~/MachineLearningCompaniesFeedbacks/Index">create an account</a> to post your discussion on this page.
+            </p>
+        }
+    }
+
+    @foreach (var item in Model)
+    {
+        <h2>@Html.DisplayFor(modelItem => item.TopicTitle)</h2>
+
+        <h3>@@ @Html.DisplayFor(modelItem => item.Company)</h3>
+
+        <p>
+            @{
+                for (int i = 0; i < item.StarRating; i++)
+                {
+                    <span style="color: #f8bd08; ">&#x2605;</span>
+                }
+                for (int i = 0; i < 5 - item.StarRating; i++)
+                {
+                    <span>&#x2606;</span>
+                }
+            }
+        </p>
+
+        <p>@Html.DisplayFor(modelItem => item.MessageContent)</p>
+        <p>Posted by <b>@Html.DisplayFor(modelItem => item.UserName)</b> on @Html.DisplayFor(modelItem => item.PostDate)</p>
+        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+
+        <a asp-action="IncreaseLike" asp-route-id="@item.Id" class="btn btn-success">Agree(@Html.DisplayFor(modelItem => item.Like))</a>
+        <a asp-action="IncreaseDislike" asp-route-id="@item.Id" class="btn btn-danger">Disagree(@Html.DisplayFor(modelItem => item.Dislike))</a>
+
+        <span class="float-right" style="margin-right:20px;">
+            @if (User.IsInRole("Manager"))
+            {
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+            }
+            |
+            @if (User.IsInRole("Manager"))
+            {
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            }
+        </span>
+        <hr noshade style="color:red" />
+    }
+</div>
+
+<!--
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PostDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopicTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StarRating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MessageContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Like)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dislike)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TopicTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StarRating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MessageContent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Like)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dislike)
+                </td>
+                <td>
+                    @if (User.IsInRole("Manager"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    }
+                    |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    @if (User.IsInRole("Manager"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                    <a asp-action="IncreaseLike" asp-route-id="@item.Id">Agree(+)</a>
+                    <a asp-action="IncreaseDislike" asp-route-id="@item.Id">Disagree(+)</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+    -->

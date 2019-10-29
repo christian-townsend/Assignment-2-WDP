@@ -5,14 +5,22 @@
 #page-container {
     position: relative;
     min-height: 100vh;
-    width: 100%;
-    margin-left:0px;
+    width: 95%;
+}
+
+#feedback-design {
+    margin-left: 50px;
+}
+
+.container {
+    width: 95%;
 }
 
 /* Navigation properties (all pages) */
 
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     margin-bottom: -20px;
+
 }
 
 .nav-item.nav-link {

@@ -4,39 +4,81 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using AspNetUserRolesEntityFramework.Models;
+using AspNetUserRolesEntityFramework.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace AspNetUserRolesEntityFramework.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
+
+
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
         {
-            return View();
+            _logger = logger;
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            
+
+            // return View(await _context.MachineLearningCompaniesFeedback.ToListAsync());
+
+            if (!User.Identity.IsAuthenticated)
+            {
+                foreach (var post in _context.MachineLearningCompaniesFeedback)
+                {
+                    post.canIncreaseLike = true;
+                    post.canIncreaseDislike = true;
+                }
+                await _context.SaveChangesAsync();
+            }
+
+
+            var allDiscussions = from result in _context.MachineLearningCompaniesFeedback
+                                 orderby result.PostDate descending
+                                 select result;
+
+            return View(await allDiscussions.ToListAsync());
         }
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
+        
+        public async Task<IActionResult> Privacy()
         {
-            ViewData["Message"] = "Your contact page.";
+            if (!User.IsInRole("Manager")) {
+                return RedirectToAction("Index");
+            }
+           
+                ViewData["Message"] = "Your application description page.";
 
-            return View();
-        }
+            // return View(await _context.MachineLearningCompaniesFeedback.ToListAsync());
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+            if (!User.Identity.IsAuthenticated)
+            {
+                foreach (var post in _context.MachineLearningCompaniesFeedback)
+                {
+                    post.canIncreaseLike = true;
+                    post.canIncreaseDislike = true;
+                }
+                await _context.SaveChangesAsync();
+            }
 
-        public IActionResult machinelearning()
-        {
-            return View();
+
+            var allDiscussions = from result in _context.MachineLearningCompaniesFeedback
+                                 orderby result.PostDate descending
+                                 select result;
+
+            return View(await allDiscussions.ToListAsync());
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

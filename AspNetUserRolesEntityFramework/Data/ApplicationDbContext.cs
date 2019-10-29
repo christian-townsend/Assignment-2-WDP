@@ -13,6 +13,6 @@ namespace AspNetUserRolesEntityFramework.Data
             : base(options)
         {
         }
-        public DbSet<AspNetUserRolesEntityFramework.Models.DiscussionForum> DiscussionForum { get; set; }
+        public DbSet<AspNetUserRolesEntityFramework.Models.MachineLearningCompaniesFeedback> MachineLearningCompaniesFeedback { get; set; }
     }
 }
